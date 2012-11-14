@@ -1,0 +1,49 @@
+.izquierda{float:left;}
+.derecha{float:right;}
+
+.r360 {left:272px; top:69px;}
+.r340 {left:166px; top:134px;}
+.r320 {left:101px; top:199px;}
+.r300 {left:77px; top:277px;}
+.r280 {left:71px; top:358px;}
+.r260 {left:71px; top:449px;}
+.r240 {left:94px; top:526px;}
+.r220 {left:151px; top:601px;}
+.r200 {left:285px; top:654px;}
+
+.r33 {left:447px; top:103px;}
+.r20 {left:563px; top:143px;}
+.r40 {left:612px; top:207px;}
+.r60 {left:646px; top:274px;}
+.r80 {left:669px; top:365px;}
+.r120 {left:637px; top:509px;}
+.r150 {left:564px; top:588px;}
+.r170 {left:479px; top:654px;}
+
+.pieContainer { height: 400px; width: 400px; padding: 200px;background: url("lineas.png") no-repeat scroll 108px 51px transparent;}
+.pie { position: absolute;
+  width: 400px; height: 400px; -moz-border-radius: 200px; -webkit-border-radius: 200px; -o-border-radius: 200px; border-radius: 200px; clip: rect(0px, 200px, 400px, 0px); }
+.hold { position: absolute; width: 400px; height: 400px; -moz-border-radius: 200px; -webkit-border-radius: 200px; -o-border-radius: 200px; border-radius: 200px; clip: rect(0px, 400px, 400px, 200px); }
+
+#pieSliceGreen { background: url('web.png') no-repeat; -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease; }
+#pieSliceGreen .pie { -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -o-transform:rotate(90deg); transform:rotate(90deg);}
+#pieSliceGreen:hover { opacity: 0.6;}
+
+#pieSliceYellow { background: url('des.png') no-repeat; -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -o-transform:rotate(90deg); transform:rotate(90deg); -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease; }
+#pieSliceYellow .pie { -webkit-transform:rotate(40deg); -moz-transform:rotate(40deg); -o-transform:rotate(40deg);  transform:rotate(40deg); }
+#pieSliceYellow:hover { opacity: 0.6; }
+
+#pieSliceBlue { background: url('mob.png') no-repeat; -webkit-transform:rotate(130deg); -moz-transform:rotate(130deg); -o-transform:rotate(130deg); transform:rotate(130deg);  -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease; }
+#pieSliceBlue .pie { -webkit-transform:rotate(60deg); -moz-transform:rotate(60deg); -o-transform:rotate(60deg); transform:rotate(60deg); -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease; }
+#pieSliceBlue:hover { opacity: 0.6; }
+
+#pieSliceOrange { background: url('mark.png') no-repeat; -webkit-transform:rotate(550deg); -moz-transform:rotate(550deg); -o-transform:rotate(550deg); transform:rotate(550deg); -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease; }
+#pieSliceOrange .pie { -webkit-transform:rotate(170deg); -moz-transform:rotate(170deg); -o-transform:rotate(170deg); transform:rotate(530deg); }
+#pieSliceOrange:hover { opacity: 0.6;}
+
+.tit_pie {font-family: "MyriadPro-Regular",Trebuchet MS,Arial,Helvetica,sans-serif; position: absolute;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+a{text-decoration: none}
+.tit_pie:hover { opacity: 0.6; }
+.tit_pie h3, .tit_pie p{margin: 0; font-weight: lighter;}
+.tit_pie h3 {color: #3d3d3d; font-size: 15px;}
+.tit_pie p{font-size: 12px; color: #b4b4b4; line-height: 11px;} 
